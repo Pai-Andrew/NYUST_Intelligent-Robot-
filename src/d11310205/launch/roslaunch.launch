@@ -1,0 +1,8 @@
+<launch>
+  <!-- 啟動 add_two_ints_server 節點 -->
+  <node name="add_two_ints_server" pkg="d11310205" type="add_two_ints_server" output="screen"/>
+
+  <!-- 如果需要啟動 add_two_ints_client 節點，則取消以下註解 -->
+  <!-- <node name="add_two_ints_client" pkg="d11310205" type="add_two_ints_client" output="screen"/> -->
+</launch>
+
